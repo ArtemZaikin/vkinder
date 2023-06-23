@@ -22,7 +22,7 @@ class WorksheetsBD:
     def __init__(self, engine):
         self.engine = engine
 
-    # Добавление записи в базу данных.
+    # Добавление записи в базу данных
     def add_user(self, profile_id, worksheet_id):
         with Session(self.engine) as session:
             to_bd = Viewed(profile_id=profile_id, worksheet_id=worksheet_id)
