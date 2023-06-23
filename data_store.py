@@ -29,7 +29,7 @@ class WorksheetsBD:
             session.add(to_bd)
             session.commit()
 
-    # извлечение записей из БД
+    # Извлечение записей из БД
     def check_user(self, profile_id, worksheet_id):
         with Session(self.engine) as session:
             from_bd = session.query(Viewed).filter(
