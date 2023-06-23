@@ -1,3 +1,3 @@
 comunity_token = 'vk1.a.T8qyiqUafkMfA4fSwUO6EqqmGyF3MlbMZMJkg9VrHiRssUPhFDzxxtDZzCcCld4t_9Ng6Tbam7rAd0eEz1_lqgpc-ccw2IEZbvQF0TUCLPM8xHqGe8DNIUeCbb_fPK8WjOuKwB1Vt12x0skNTSxLNRqisUfPLbzTc9C2QEYKS6IoHhXgxd9y6glHXGZirq3Km0X-mEuO_3lpztNGeL-AeA'
 acces_token = ''
-db_url_object = "postgresql+psycopg2://postgres:7353@localhost:5432/worksheets_db"
+db_url_object = ""
